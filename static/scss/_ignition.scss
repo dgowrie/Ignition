@@ -1,0 +1,56 @@
+
+h1.title {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 64px;
+	font-size: 6.4rem;
+	margin-top: 32px;
+	margin-top: 3.2rem;
+}
+
+h2.ignition {
+	border-bottom: 1px solid $dark_grey;
+	padding-bottom: 3px;
+	padding-bottom: 0.3rem;
+	font-size: 32px;
+	font-size: 3.2rem;
+	margin-top: 32px;
+	margin-top: 3.2rem;
+	
+	span {
+		font-size: 16px;
+		font-size: 1,6rem;
+	}
+}
+
+#main-menu {
+	margin: 20px 0;
+}
+
+#main-footer {
+	margin-bottom: 32px;
+	margin-bottom: 3.2rem;
+}
+
+span.ignition {
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.columns {
+	width: 300px;
+	width: 30rem;
+	margin: 0 17px 32px 0;
+	margin: 0 1.7rem 3.2rem 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+code {
+	background-color: $dark_red;
+	color: white;
+	padding: 1px 3px;
+	padding: 0.1rem 0.3rem;
+	border-radius: 3px;
+	border-radius: 0.3rem;
+	font-size: 12px;
+	font-size: 1.2rem;
+}

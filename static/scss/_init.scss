@@ -1,0 +1,162 @@
+/* === IGNITION - init === */
+
+html {
+	font-size: 62.5%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+	width: 96rem;
+	margin: 0 auto;
+	font-size: 14px;
+	font-size: 1.4rem;
+	color: $dark_grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $dark_grey;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 30px;
+	font-size: 3.0rem;
+	line-height: 36px;
+	line-height: 3.6rem;
+	margin-bottom: 16px;
+	margin-bottom: 1.6rem;
+	
+	span {
+		color: $light_grey;
+		font-size: 16px;
+	}
+	
+}
+
+h2 {
+	font-size: 24px;
+	font-size: 2.4rem;
+	line-height: 36px;
+	line-height: 3.6rem;
+	margin-bottom: 12px;
+	margin-bottom: 1.2rem;
+	
+	span {
+		color: $light_grey;
+		font-size: 12px;
+	}
+	
+}
+
+h3 {
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 36px;
+	line-height: 3.6rem;
+}
+
+h4 {
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 36px;
+	line-height: 3.6rem;
+}
+
+h5 {
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 36px;
+	line-height: 3.6rem;
+}
+
+h6 {
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 36px;
+	line-height: 3.6rem;
+	color: $light_grey;
+}
+
+a {
+	color: $dark_red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: $red;
+}
+
+a:focus {
+	background: $red;
+	color: white;
+}
+
+p {
+
+	a {
+		border-bottom: 1px dotted $dark_red;
+		padding: 0 5px;
+		padding: 0 0.5rem;
+	}
+
+	a:hover {
+		border-bottom: 1px solid $red;
+	}
+	
+	strong {
+		font-weight: bold;
+		border-bottom: 1px solid $dark_grey;
+		padding: 0 5px;
+		padding: 0 0.5rem;
+	}
+
+}
+
+ul {
+	margin: 0 0 10px 28px;
+	margin: 0 0 1rem 2.8rem;
+}
+
+ol {
+	margin: 0 0 10px 35px;
+	margin: 0 0 1rem 3.5rem;
+}
+
+dl {
+	
+	dt {
+		line-height: 1.5;
+		font-weight: bold;
+	}
+	
+	dd {
+		line-height: 1.5;
+		margin-left: 10px;
+	}
+	
+}
+
+li {
+	line-height: 1.5;
+}
+
+nav {
+	ul, ol {
+		margin: 0;
+	}
+}
+
+p {
+	margin-bottom: 16px;
+	margin-bottom: 1.6rem;
+	line-height: 1.5;
+}
+
+blockquote {
+	margin: 0 0 16px 16px;
+	margin: 0 0 1.6rem 1.6rem;
+	padding: 16px 0 16px 16px;
+	padding: 1.6rem 0 16px 1.6rem;
+	border-left: 1px solid $dark_grey;
+	line-height: 1.5;
+}

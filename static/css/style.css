@@ -1,0 +1,314 @@
+/*
+ * === IGNITION ===
+ */
+/* === IGNITION - reset === */
+/* line 3, ../scss/_reset.scss */
+a, abbr, acronym, address, applet, area, article, aside, audio, b, base, basefont, bdo, big, blockquote, body, br, button, canvas, caption, center, cite, code, colgroup, command, datalist, dd, del, details, dfn, dir, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, frameset, footer, h1, h2, h3, h4, h5, h6, head, header, hgroup, hr, html, i, iframe, img, input, ins, keygen, kbd, label, legend, li, link, map, mark, menu, meta, meter, nav, noframes, noscript, object, ol, optgroup, option, output, p, param, pre, progress, q, rp, rt, ruby, s, samp, script, section, select, small, source, span, strike, strong, style, sub, summury, sup, table, tbody, td, textarea, tfoot, th, thead, time, title, tr, tt, u, ul, var, video, wbr, xmp {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: none;
+  font-weight: normal;
+  text-align: left;
+  line-height: 1;
+}
+
+/* line 16, ../scss/_reset.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 20, ../scss/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../scss/_reset.scss */
+nav ul, nav ol {
+  list-style: none;
+}
+
+/* line 30, ../scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 35, ../scss/_reset.scss */
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+
+/* line 39, ../scss/_reset.scss */
+input[type="checkbox"] {
+  vertical-align: bottom;
+}
+
+/* line 43, ../scss/_reset.scss */
+input[type=button], input[type=submit], button {
+  cursor: pointer;
+}
+
+/* === IGNITION - init === */
+/* line 3, ../scss/_init.scss */
+html {
+  font-size: 62.5%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* line 8, ../scss/_init.scss */
+body {
+  width: 96rem;
+  margin: 0 auto;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #444444;
+}
+
+/* line 16, ../scss/_init.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+  font-weight: bold;
+}
+
+/* line 21, ../scss/_init.scss */
+h1 {
+  font-size: 30px;
+  font-size: 3.0rem;
+  line-height: 36px;
+  line-height: 3.6rem;
+  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
+}
+/* line 29, ../scss/_init.scss */
+h1 span {
+  color: #aaaaaa;
+  font-size: 16px;
+}
+
+/* line 36, ../scss/_init.scss */
+h2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 36px;
+  line-height: 3.6rem;
+  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
+}
+/* line 44, ../scss/_init.scss */
+h2 span {
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+/* line 51, ../scss/_init.scss */
+h3 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 36px;
+  line-height: 3.6rem;
+}
+
+/* line 58, ../scss/_init.scss */
+h4 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 36px;
+  line-height: 3.6rem;
+}
+
+/* line 65, ../scss/_init.scss */
+h5 {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 36px;
+  line-height: 3.6rem;
+}
+
+/* line 72, ../scss/_init.scss */
+h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 36px;
+  line-height: 3.6rem;
+  color: #aaaaaa;
+}
+
+/* line 80, ../scss/_init.scss */
+a {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+/* line 85, ../scss/_init.scss */
+a:hover {
+  color: red;
+}
+
+/* line 89, ../scss/_init.scss */
+a:focus {
+  background: red;
+  color: white;
+}
+
+/* line 96, ../scss/_init.scss */
+p a {
+  border-bottom: 1px dotted #cc0000;
+  padding: 0 5px;
+  padding: 0 0.5rem;
+}
+/* line 102, ../scss/_init.scss */
+p a:hover {
+  border-bottom: 1px solid red;
+}
+/* line 106, ../scss/_init.scss */
+p strong {
+  font-weight: bold;
+  border-bottom: 1px solid #444444;
+  padding: 0 5px;
+  padding: 0 0.5rem;
+}
+
+/* line 115, ../scss/_init.scss */
+ul {
+  margin: 0 0 10px 28px;
+  margin: 0 0 1rem 2.8rem;
+}
+
+/* line 120, ../scss/_init.scss */
+ol {
+  margin: 0 0 10px 35px;
+  margin: 0 0 1rem 3.5rem;
+}
+
+/* line 127, ../scss/_init.scss */
+dl dt {
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* line 132, ../scss/_init.scss */
+dl dd {
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+/* line 139, ../scss/_init.scss */
+li {
+  line-height: 1.5;
+}
+
+/* line 144, ../scss/_init.scss */
+nav ul, nav ol {
+  margin: 0;
+}
+
+/* line 149, ../scss/_init.scss */
+p {
+  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
+  line-height: 1.5;
+}
+
+/* line 155, ../scss/_init.scss */
+blockquote {
+  margin: 0 0 16px 16px;
+  margin: 0 0 1.6rem 1.6rem;
+  padding: 16px 0 16px 16px;
+  padding: 1.6rem 0 16px 1.6rem;
+  border-left: 1px solid #444444;
+  line-height: 1.5;
+}
+
+/* line 2, ../scss/_ignition.scss */
+h1.title {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 64px;
+  font-size: 6.4rem;
+  margin-top: 32px;
+  margin-top: 3.2rem;
+}
+
+/* line 10, ../scss/_ignition.scss */
+h2.ignition {
+  border-bottom: 1px solid #444444;
+  padding-bottom: 3px;
+  padding-bottom: 0.3rem;
+  font-size: 32px;
+  font-size: 3.2rem;
+  margin-top: 32px;
+  margin-top: 3.2rem;
+}
+/* line 19, ../scss/_ignition.scss */
+h2.ignition span {
+  font-size: 16px;
+  font-size: 1,6rem;
+}
+
+/* line 25, ../scss/_ignition.scss */
+#main-menu {
+  margin: 20px 0;
+}
+
+/* line 29, ../scss/_ignition.scss */
+#main-footer {
+  margin-bottom: 32px;
+  margin-bottom: 3.2rem;
+}
+
+/* line 34, ../scss/_ignition.scss */
+span.ignition {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+/* line 38, ../scss/_ignition.scss */
+.columns {
+  width: 300px;
+  width: 30rem;
+  margin: 0 17px 32px 0;
+  margin: 0 1.7rem 3.2rem 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 47, ../scss/_ignition.scss */
+code {
+  background-color: #cc0000;
+  color: white;
+  padding: 1px 3px;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width : 1260px) {
+  /* === IGNITION - MEDIA - big === */
+  /* line 3, ../scss/_media_big.scss */
+  html {
+    font-size: 78.125%;
+  }
+}
+@media only screen and (max-width : 1024px) {
+  /* === IGNITION - MEDIA - small === */
+  /* line 3, ../scss/_media_small.scss */
+  html {
+    font-size: 46.875%;
+  }
+}
+@media only screen and (max-width : 768px) {
+  /* line 1, ../scss/_media_flex.scss */
+  body {
+    width: 96%;
+    padding: 2%;
+  }
+}
+@media only screen and (max-device-width : 480px) {
+  /* line 1, ../scss/_media_mobile.scss */
+  body {
+    min-width: 320px;
+  }
+}
