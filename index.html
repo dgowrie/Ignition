@@ -2,57 +2,63 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Ignition</title>
+		<title>Ignition - simple, clean & responsive html5 + css3 template</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="" />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="static/css/style.css" />
-		<link rel="stylesheet" href="static/css/reset.css" />
+		<link rel="stylesheet" href="static/css/print.css" media="print" />
 	</head>
 	<body>
 		<header id="main-header">
-			<h1 class="title"><a href="">Ignition</a> <span>simple, clean & responsive starting template</span></h1>
+			<h1 class="title"><a href="">Ignition</a> <span>simple, clean & responsive html5 + css3 template</span></h1>
 			<nav id="main-menu">
 				<ul>
-					<li><a href="#">About ignition</a></li>
-					<li><a href="#">Typography</a></li>
-					<li><a href="#">Forms</a></li>
-					<li><a href="#">Tables</a></li>
-					<li><a href="#">How to use</a></li>
+					<li><a href="#overview">Overview</a></li>
+					<li><a href="#about-ignition">About ignition</a></li>
+					<li><a href="#typography">Typography</a></li>
+					<li><a href="#forms">Forms</a></li>
+					<li><a href="#tables">Tables</a></li>
+					<li><a href="#documentation">Documentation</a></li>
+					<li><a href="#changelog">Changelog</a></li>
 				</ul>
 			</nav>
 		</header>
 		
+<!-- OVERVIEW ------------------------------------------------------------------------------------>
+
 		<section id="main-section">
 			<section id="main-content">
 				
+				<section class="columns" id="overview">
+					<h2 class="download">Download</h2>
+					<p><span class="ignition">Ignition</span> is almost finished. You can allready play with it. It's worth your time, I promise. So go ahead and <a href="https://github.com/psoluch/Ignition/archives/master" class="downloadnow">download <span class="ignition">Ignition</span> now</a>.</p>
+				</section>
 				<section class="columns">
-					<h2>Follow</h2>
+					<h2 class="follow">Follow</h2>
 					<p>If You want to stay up to date with <span class="ignition">Ignition</span> <a href="http://twitter.com/psoluch" target="_blank">follow me on twitter</a>.</p>
 				</section>
 				<section class="columns">
-					<h2>Download</h2>
-					<p><span class="ignition">Ignition</span> is not finished yet. But You can play with it allready, it's worth it, I promise. So go ahead and <a href="https://github.com/psoluch/Ignition/archives/master">download <span class="ignition">Ignition</span></a>.</p>
-				</section>
-				<section class="columns">
-					<h2>Develop</h2>
+					<h2 class="develop">Develop</h2>
 					<p>If You have any cool ideas go ahead and visit <span class="ignition">Ignition</span> on <a href="https://github.com/psoluch/Ignition" target="_blank">GitHub</a></p>
 				</section>
 				
 <!-- ABOUT IGNITION	------------------------------------------------------------------------------>
 
-				<h2 class="ignition">About Ignition <span>learn why it's briliant</span></h2>
+				<h2 class="ignition" id="about-ignition">About Ignition <span>learn why it's briliant</span></h2>
 				<section class="columns">
 					<h3>Info</h3>
-					<p><span class="ignition">Ignition</span> is a very clean & simple to use starting template.</p>
+					<p><span class="ignition">Ignition</span> is a very clean & simple template. It's ideal starting point for your web apps and websites.</p>
 					<p>Some parts of <span class="ignition">Ignition</span> are midly inspired by <a href="http://html5boilerplate.com/">HTML5 Bolierplate</a> & <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>.</p>
 				</section>
 				<section class="columns">
 					<h3>Features</h3>
 					<ul>
-						<li>Responsive styles</li>
+						<li>responsive design</li>
+						<li>advanced accessibility</li>
+						<li>performance optimization</li>
 					</ul>
 				</section>
 				<section class="columns">
@@ -78,7 +84,9 @@
 				<section class="columns">
 					<h3>What's not icluded</h3>
 					<ul>
-						<li>css for grids & layouts</li>
+						<li>grid system</li>
+						<li>advanced layouts</li>
+						<li>advanced styles (pagination, tabs etc)</li>
 					</ul>
 				</section>
 				<section class="columns">
@@ -91,7 +99,7 @@
 				
 <!-- TYPOGRAPHY	---------------------------------------------------------------------------------->
 
-				<h2 class="ignition">Typography <span>headings, paragraphs and other goodness</span></h2>
+				<h2 class="ignition" id="typography">Typography <span>headings, paragraphs and other goodness</span></h2>
 				<section class="columns">
 					<h3>Headings</h3>
 					<hgroup>
@@ -171,20 +179,20 @@
 
 <!-- FORMS --------------------------------------------------------------------------------------->
 
-				<h2 class="ignition">Forms <span>make forms beautifull and easy to use</span></h2>
+				<h2 class="ignition" id="forms">Forms <span>make forms beautifull and easy to use</span></h2>
 				<p>@todo</p>
 				
 <!-- TABLES --------------------------------------------------------------------------------------->
 				
-				<h2 class="ignition">Tables <span>awesome styles for your data display</span></h2>
+				<h2 class="ignition" id="tables">Tables <span>awesome styles for your data display</span></h2>
 				<p>@todo</p>
 
-<!-- GETTING STARTED ------------------------------------------------------------------------------>
+<!-- DOCUMENTATION -------------------------------------------------------------------------------->
 				
-				<h2 class="ignition">Getting started <span>it's bloody simple</span></h2>
+				<h2 class="ignition" id="documentation">Documentation <span>it's bloody simple</span></h2>
 				
 				
-				<h3>The beginning</h3>
+				<h3>Getting started</h3>
 				
 				<section class="columns">
 					<h4>File structure</h4>
@@ -192,9 +200,18 @@
 						<li><strong>/files</strong></li>
 						<li><strong>/static</strong>
 							<ul>
-								<li>css</li>
+								<li>/css</li>
+								<li>/fonts</li>
+								<li>/images</li>
+								<li>/js</li>
+								<li>/scss</li>
 							</ul>
 						</li>
+						<li><a href="https://github.com/psoluch/Ignition/blob/master/.htaccess" target="_blank">.htaccess</a></li>
+						<li><a href="https://github.com/psoluch/Ignition/blob/master/.htaccess" target="_blank">404.html</a></li>
+						<li><a href="https://github.com/psoluch/Ignition/blob/master/.htaccess" target="_blank">humans.txt</a></li>
+						<li><a href="https://github.com/psoluch/Ignition/blob/master/.htaccess" target="_blank">index.html</a></li>
+						<li><a href="https://github.com/psoluch/Ignition/blob/master/robots.txt" target="_blank">robots.txt</a></li>
 					</ul>
 				</section>
 				<section class="columns">
@@ -205,26 +222,29 @@
 					<h4>JavaScript</h4>
 					<p>@todo</p>
 				</section>
+				
+				<h3>Techniques</h3>
+				<section class="columns">
+					<h4>Reset css</h4>
+					<p></p>
+				</section>
+				<section class="columns">
+					<h4>sizes in rem</h4>
+					<p></p>
+				</section>
+				
 			</section>
 		</section>
 
 <!-- CHANGELOG ----------------------------------------------------------------------------------->
 				
-				<h2 class="ignition">Changelog <span>moving forward</span></h2>
+				<h2 class="ignition" id="changelog">Changelog <span>moving forward</span></h2>
 				
 				<h3>Version 1</h3>
 				<p>@todo</p>
 		
 		<footer id="main-footer">
-			<nav>
-				<ul>
-					<li><a href="#">About ignition</a></li>
-					<li><a href="#">Typography</a></li>
-					<li><a href="#">Forms</a></li>
-					<li><a href="#">Tables</a></li>
-					<li><a href="#">How to use</a></li>
-				</ul>
-			</nav>
+			by <a href="http://piotr.soluch.com" target="_blank">Piotr Soluch</a>
 		</footer>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script defer src="static/js/script.js"></script>

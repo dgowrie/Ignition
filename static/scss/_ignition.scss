@@ -3,8 +3,8 @@ h1.title {
 	font-family: 'Love Ya Like A Sister', cursive;
 	font-size: 64px;
 	font-size: 6.4rem;
-	margin-top: 32px;
-	margin-top: 3.2rem;
+	margin-top: 64px;
+	margin-top: 6.4rem;
 }
 
 h2.ignition {
@@ -13,8 +13,8 @@ h2.ignition {
 	padding-bottom: 0.3rem;
 	font-size: 32px;
 	font-size: 3.2rem;
-	margin-top: 32px;
-	margin-top: 3.2rem;
+	margin-top: 16px;
+	margin-top: 1.6rem;
 	
 	span {
 		font-size: 16px;
@@ -22,8 +22,60 @@ h2.ignition {
 	}
 }
 
+header {
+	margin-bottom: 50px;
+}
+
+h2.follow {
+	background: url(../images/icons.png) no-repeat 0 1px;
+	padding-left: 40px;
+}
+
+h2.download {
+	background: url(../images/icons.png) no-repeat 0 -40px;
+	padding-left: 40px;
+}
+
+h2.develop {
+	background: url(../images/icons.png) no-repeat 0 -83px;
+	padding-left: 40px;
+}
+
+.downloadnow {
+	background: $dark_red;
+	color: white;
+	border-radius: 3px;
+	border-radius: 0.3rem;
+	padding: 3px 6px;
+}
+
 #main-menu {
-	margin: 20px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: 10;
+	width: 100%;
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+	
+	ul {
+		width: 96rem;
+		margin: 0 auto;
+	}
+	
+	li {
+		display: inline-block;
+		margin-right: 3rem;
+		
+		a {
+			height: 4rem;
+			line-height: 4rem;
+			font-size: 16px;
+		}
+	}
+	
 }
 
 #main-footer {
